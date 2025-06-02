@@ -172,6 +172,8 @@
       #if internship.duties != none {
         for duty in internship.duties {
           block[
+            #box(image("./icons/arrow-drop-right-line.svg"), height: 1em, baseline: 0.75pt)
+            #h(3pt)
             #text(weight: "black")[#(duty.duty)]
             #v(1pt)
             #for point in duty.points {

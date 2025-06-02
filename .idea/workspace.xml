@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a2415b0-417d-4a3b-95c4-f89a3c303455" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/icons/arrow-drop-right-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.toml" beforeDir="false" afterPath="$PROJECT_DIR$/main.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.typ" beforeDir="false" afterPath="$PROJECT_DIR$/template.typ" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.toml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.toml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
               <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrow.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icons/arrow.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="arrow-drop-right-line.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icons/arrow-drop-right-line.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="main.typ" pinned="false" current-in-tab="false">
@@ -33,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.typ" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.typ" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.typ">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1051">
-              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="421">
+              <caret line="177" column="19" lean-forward="true" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -67,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.typ" />
-        <option value="$PROJECT_DIR$/template.typ" />
         <option value="$PROJECT_DIR$/main.toml" />
+        <option value="$PROJECT_DIR$/template.typ" />
       </list>
     </option>
   </component>
@@ -90,6 +102,11 @@
               <item name="cv.typ" type="b2602c69:ProjectViewProjectNode" />
               <item name="cv.typ" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cv.typ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cv.typ" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -100,6 +117,11 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="LXGW&#9;null&#9;null&#10;website&#9;FILE&#9;file:///Users/xiongtao/Documents/code/cv.typ/icons/website.svg" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,10 +204,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31636363" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31636363" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -256,17 +278,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.typ">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/arrow.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/arrow-drop-right-line.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.typ">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="177" column="19" lean-forward="true" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
         </state>
       </provider>
     </entry>
