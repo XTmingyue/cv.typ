@@ -20,40 +20,57 @@ degree = "学前班"
 date = "2003.9 - 2006.6"
 
 [[projects]]
-name = "Kubernetes"
-url = "https://github.com/kubernetes/kubernetes"
+name = "翻斗幼儿园"
+url = ""
 date = "2014.6 - now"
-desc = "Kubernetes是一个开源的，用于管理云平台中多个主机上的容器化的应用"
+desc = "开发工程师"
 points = ["负责Kubernetes的网络部分", "负责Kubernetes的不知道什么部分"]
 
 [[projects]]
-name = "Linux"
-url = "https://github.com/torvalds/linux"
+name = "翻斗学前班"
+url = ""
 date = "2006.6 - 2022.6"
-desc = "Linux是一个开源的操作系统内核"
+desc = "开发工程师"
 points = [
     "负责Linux的文件系统部分，包括ext4, btrfs, xfs, f2fs",
     "负责Linux的网络部分，包括TCP/IP, UDP, SCTP, DCCP, IPv4, IPv6",
 ]
 
-[[projects]]
-name = "翻斗幼儿园每日打卡"
-url = ""
-date = "2019.12 - 2023.1"
-desc = ""
-points = ["可以进行翻斗幼儿园每日打卡", "在线用户超过20"]
+[[internships]]
+company = "翻斗大街翻斗花园2号楼端茶倒水"
+jobtitle = "项目负责人"
+date = "2022.4 - 2022.6"
+background = "在翻斗花园2号楼担任端茶倒水的工作，负责接待来访客人，保持环境整洁"
+
+[[internships.duties]]
+duty = "职责一：接待工作"
+points = ["负责端茶倒水", "负责接待来访客人"]
+
+[[internships.duties]]
+duty = "职责二：环境维护"
+points = ["负责浇花", "负责保持环境整洁"]
+
+[internships.results]
+results = ["服务质量提升", "个人荣誉", "环境改善"]
+points = ["客人满意度提升30%", "获得月度优秀员工称号", "花园环境评分提升20%"]
 
 [[internships]]
-company = "翻斗大街翻斗花园2号楼"
-jobtitle = "端茶倒水"
+company = "翻斗幼儿园扮演小学生"
+jobtitle = "项目负责人"
 date = "2022.4 - 2022.6"
-points = ["负责端茶倒水", "负责浇花"]
+background = "在翻斗幼儿园体验小学生生活，与小朋友们一起学习、玩耍"
 
-[[internships]]
-company = "翻斗幼儿园"
-jobtitle = "扮演小学生"
-date = "2022.4 - 2022.6"
-points = ["和张小帅一起玩", "和张小帅一起吃饭", "和张小帅一起睡觉(误)"]
+[[internships.duties]]
+duty = "职责一：学习活动"
+points = ["和张小帅一起玩", "和张小帅一起吃饭"]
+
+[[internships.duties]]
+duty = "职责二：生活起居"
+points = ["和张小帅一起睡觉(误)"]
+
+[internships.results]
+results = ["学习成果", "活动表现", "社交能力"]
+points = ["获得优秀学生称号", "在班级活动中表现突出", "成为班级最受欢迎的小朋友"]
 
 [[awards]]
 name = "最佳编导奖（获奖）"

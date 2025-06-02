@@ -126,26 +126,22 @@
   v(3pt)
 }
 
-// 项目经历
+// 工作经历
 #let projects(projects) = {
-  section-header(title: "项目经历", icon: "./icons/project.svg")
+  section-header(title: "工作经历", icon: "./icons/project.svg")
 
   set list(indent: 1em, tight: true)
 
   for project in projects {
     block[
       #text(1.25em, weight: "black", project.name)
-      #if project.url != "" {
+      #if project.desc != "" {
         h(3pt)
-        github(project.url)
+        text(weight: "black", project.desc)
       }
       #h(1fr)
       #text(weight: "thin", emph(project.date))
 
-      #if project.desc != "" {
-        v(-5pt)
-        text(weight: "black", project.desc)
-      }
 
       #for point in project.points.map(x => "[" + x + "]")  {
         list(eval(point))
@@ -155,9 +151,9 @@
   }
 }
 
-// 实习经历
+// 项目经历
 #let internships(internships) = {
-  section-header(title: "实习经历", icon: "./icons/internship.svg")
+  section-header(title: "项目经历", icon: "./icons/internship.svg")
   set list(indent: 1em, tight: true)
 
   for internship in internships {
@@ -167,9 +163,32 @@
       #internship.jobtitle
       #h(1fr)
       #text(weight: "thin", emph(internship.date))
-      
-      #for point in internship.points.map(x => "[" + x + "]") {
-        list(eval(point))
+      #if internship.background != none {
+        v(3pt)
+        text(weight: "black")[项目介绍：]
+        text(internship.background)
+      }
+
+      #if internship.duties != none {
+        for duty in internship.duties {
+          block[
+            #text(weight: "black")[#(duty.duty)]
+            #v(1pt)
+            #for point in duty.points {
+              list(point)
+            }
+          ]
+        }
+      }
+
+      #if internship.results != none {
+        block[
+          #text(weight: "black")[成果：]
+          #v(1pt)
+          #for (result, point) in internship.results.results.zip(internship.results.points) {
+            list(text(weight: "black")[#(result)] + text("。") + text(weight: "regular")[#(point)])
+          }
+        ]
       }
 
       #v(3pt)
